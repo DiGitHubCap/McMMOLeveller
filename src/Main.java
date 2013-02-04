@@ -27,7 +27,7 @@ import com.gmail.nossr50.events.experience.McMMOPlayerLevelUpEvent;
 import me.Hoot215.LevelFlare.api.LevelFlareLeveller;
 import me.Hoot215.LevelFlare.api.LevellerHandler;
 
-@LevellerHandler(name = "McMMOLeveller", version = "1.0")
+@LevellerHandler(name = "McMMOLeveller", version = "1.1")
 public class Main extends LevelFlareLeveller implements Listener
   {
     @EventHandler(priority = EventPriority.MONITOR)
