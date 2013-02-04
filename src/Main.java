@@ -51,15 +51,6 @@ public class Main extends LevelFlareLeveller implements Listener
         Player player = event.getPlayer();
         
         this.getPlugin().launchFireworks(player);
-        
-        if (config.isString("mcmmo.level-up-message"))
-          {
-            String message = config.getString("mcmmo.level-up-message");
-            if (message.isEmpty())
-              return;
-            player.sendMessage(String.format(message,
-                String.valueOf(event.getSkillLevel())));
-          }
       }
     
     @Override
